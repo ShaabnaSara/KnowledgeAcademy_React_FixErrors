@@ -4,7 +4,7 @@ function About() {
 
   let [count,setCount] = useState(0);
   const changeCount = ()=>{
-    setCount(count++);
+    setCount(++count);
   };
   return (
     <div>
